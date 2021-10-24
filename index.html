@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Viewport scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/mystyle.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="header" id="grad1">
+        <h1 class="app-title">Weather Dashboard</h1>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <h3 class="card-header text-normal">Search by City</h3>
+                <form id="city-form" class="card-body">
+                    <label class="form-label" for="cityName"></label>
+                    <!-- Search Button -->
+                    <input name="cityName" id="cityName" type="text" autofocus="true" class="-form-input"
+                        placeholder=" Enter a City Name! " />
+                    <button type="submit" class="btn" id="citySearch">SEARCH</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Weather Container -->
+
+        <!--/div> -->
+        <section id="weather">
+            <div id="city"></div>
+            <div id="currentDay"></div>
+
+            <div id="temp"></div>
+            <div id="uvi"></div>
+            <div id="feelsLike"></div>
+            <div id="wind"></div>
+            <div id="humidity"></div>
+            <div id="description"></div>
+            <div class="icon"></div>
+        </section>
+
+
+
+    </main>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
