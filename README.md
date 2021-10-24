@@ -23,7 +23,7 @@ https://abrarchowdhry98.github.io/Abrars-Weather-Dashboard/
 https://github.com/AbrarChowdhry98/Abrars-Weather-Dashboard
 
 ## Weather Dashboard screenshot
-![Project_Screenshot]()
+![Project_Screenshot](https://github.com/AbrarChowdhry98/Abrars-Weather-Dashboard/blob/main/assets/images/Screenshot%202021-10-24%20161950.jpg)
 
 ## Markup for the Weather Dashboard
 ![06-server-side-apis-homework-demo](https://user-images.githubusercontent.com/57843842/127801401-cd5a373b-fe67-4706-9e0f-c1edd16f88c7.png)
